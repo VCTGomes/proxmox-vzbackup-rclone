@@ -2,7 +2,7 @@
 # ./vzbackup-rclone.sh rehydrate YYYY/MM/DD file_name_encrypted.bin
 
 ############ /START CONFIG
-dumpdir="/mnt/pve/backups/dump" # Set this to where your vzdump files are stored
+dumpdir="/var/lib/vz/dump" # Set this to where your vzdump files are stored
 MAX_AGE=4320 # This is the age in minutes to keep local backup copies. Local backups older than this are deleted.
 ############ /END CONFIG
 
